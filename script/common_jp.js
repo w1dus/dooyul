@@ -13,7 +13,8 @@ document.addEventListener("scroll", function(){
 
 
 const privacyUsePopup = () => {
-    $('.privacyPopupBtn').click(function(){
+    $('.privacyPopupBtn').click(function(e){
+        e.preventDefault();
         $('#privacyPopup').addClass('active');
     })
     $('.usePopupBtn').click(function(){
@@ -53,15 +54,15 @@ const bodyScroll = () => {
   
 const headerScrollHandler = () => {
     /* header */
-    const header_main = document.querySelector('header');
+    const header_main = document.querySelector('header.main');
 
     if(header_main){
         document.addEventListener("scroll", function(){
             let scroll_top = window.scrollY;
             if(scroll_top > 0){
-                header_main.classList.add("on");
+                header_main.classList.remove("active");
             }else{
-                header_main.classList.remove("on");
+                header_main.classList.add("active");
             }
         })
     }
@@ -79,7 +80,7 @@ const animationOnHandler = () => {
                 }
             });
         }, {
-            threshold: 0.5 // Adjust threshold as needed
+            threshold: 0.1 // Adjust threshold as needed
         });
         
         // Observe each .ani element
