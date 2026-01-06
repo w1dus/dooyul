@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--스타일-->
+        <link rel="stylesheet" href="./style/default.css">
+        <link rel="stylesheet" href="./style/font.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/swiper.min.css">
+        <link rel="stylesheet" href="./style/animation.css">
+        <link rel="stylesheet" href="./style/customBoard.css">
+        <!--스크립트-->
+        <script type="text/javascript" src="./script/script.js"></script>
+        <script type="text/javascript" src="./script/swiper.min.js"></script>
+        <script type="text/javascript" src="./script/customBoard.js"></script>
+        <script type="text/javascript" src="./script/common_jp.js"></script>
+        <!-- 패럴렉스 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    </head>
+    <body>
+        <!-- 헤더 { -->
+        <header class=""><!-- 메인에만 main active 클래스 넣어주세요.-->
+            <div class="inner">
+                <a href="./index.html">
+                    <img src="./img/common/logo.svg" alt="법무법인 두율" class="logo white" />
+                    <img src="./img/common/logo-black.svg" alt="법무법인 두율" class="logo black" />
+                </a>
+                <ul class="menu-list">
+                    <li><a href="./sub1_1.html" class="scroll_move">법인소개</a></li>
+                    <li><a href="./sub2_1.html" class="scroll_move">구성원</a></li>
+                    <li><a href="./sub3_1.html" class="scroll_move">업무분야</a></li>
+                    <li><a href="./sub4_1.html" class="scroll_move">두율소식</a></li>
+                    <li><a href="./sub5_1.html" class="scroll_move">두율 인사이트</a></li>
+                </ul>
+                <div class="right-wrap">
+                    <a href="#" class="apply-btn"><span class="text">상담예약</span><span class="dot"></span></a>
+                    <button type="button" class="menu-btn">
+                        <img src="./img/common/menu.svg" alt="메뉴" class="icon" />
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- } 헤더 끝-->
+        <!-- 우측 슬라이드 메뉴 { -->
+            <section class="slide-menu">
+                <div class="btn-div">
+                    <button type="button" class="close-btn">
+                        <img src="./img/common/close-btn.png" alt="x" class="icon" />
+                    </button>
+                </div>
+                <div class="menu-wrap">
+                    <ul class="menu-list">
+                        <li><a href="./sub1_1.html" class="scroll_move">법인소개</a></li>
+                        <li><a href="./sub2_1.html" class="scroll_move">구성원</a></li>
+                        <li><a href="./sub3_1.html" class="scroll_move">업무분야</a></li>
+                        <li><a href="./sub4_1.html" class="scroll_move">두율소식</a></li>
+                        <li><a href="./sub5_1.html" class="scroll_move">두율 인사이트</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="slide-menu-close"></section>
+        <!-- } 우측 슬라이드 메뉴 끝-->
+        <main id="smooth-wrapper">
+            <article id="smooth-content">
+                <!-- 메인 { -->
+                    <main class="sub sub1 sub1_1">
+                        <section class="sub-banner-section">
+                          <div class="white-box left"></div>
+                          <div class="white-box left left2"></div>
+                          <div class="inner">
+                            <h2>두율의 가치와 철학</h2>
+                            <p class="content">
+                              법무법인 두율은 사건을 빠르게 판단하지 않습니다.<br/>
+                              <b>기준을 세우고, 원칙에 따라 대응합니다.</b>
+                            </p>
+                          </div>
+                          <div class="white-box right"></div>
+                          <div class="white-box right right2"></div>
+                          <div class="bottom-bar"></div>
+                        </section>
+                        <section class="section1">
+                          <div class="inner">
+                            <div class="sub-title-wrap">
+                              <div class="bar"></div>
+                              <h3>About US</h3>
+                            </div>
+                            <div class="content-box">
+                              <div class="img-box" style="background-image: url('./img/sub/sub1_1/section1/item.jpg');"></div>
+                              <div class="content-wrap">
+                                <div class="title">전문성은 나뉘어 있지만,<br/><b>판단의 기준은 같습니다.</b></div>
+                                <div class="content">
+                                  법무법인 두율은<br/>
+                                  다양한 실무 분야에서 경험을 쌓아온 변호사들이<br/>
+                                  하나의 기준 아래 협업하는 로펌입니다.<br/><br/>
+
+                                  각 사건의 성격에 맞는 전문성을 바탕으로<br/>
+                                  의뢰인의 상황을 종합적으로 검토하고<br/>
+                                  현실적인 해결 방안을 제시합니다.
+                                </div>
+                              </div>
+                              
+                            </div>
+                          </div>
+                        </section>
+                        <section class="section2">
+                          <div class="inner">
+                            <div class="sub-title2">
+                              <h3>Key Practice Areas</h3>
+                              <h4>집중하는 분야에는 <br class="moBr"/><b>이유가 있습니다</b></h4>
+                              <p class="sub-content">
+                                두율은 모든 영역을 다루지 않습니다.<br/>
+                                실제 의뢰인의 삶과 기업의 현장에서<br/>
+                                문제가 가장 많이 발생하는 분야에 집중합니다.
+                              </p>
+                            </div>
+                            <div class="item-box">
+                              <div class="item">노동 · 산재 · 기업</div>
+                              <div class="item">개인정보 · 인공지능</div>
+                              <div class="item">중소기업 분쟁</div>
+                              <div class="item">개인정보 · 데이터 이슈</div>
+                              <div class="item">이혼 · 상속</div>
+                              <div class="item">형사 사건</div>
+                            </div>
+                          </div>
+                        </section>
+                        <section class="section3">
+                            <div class="inner">
+                                <h3>How We Work</h3>
+                                <h4>두율이 <b>일하는 방식</b></h4>
+
+                                <div class="item-wrap">
+                                    <div class="item">
+                                        <div class="icon" style="background-image: url('./img/sub/sub1_1/section3/icon1.png');"></div>
+                                        <div class="t1">실무 중심의 대응</div>
+                                        <div class="t2">의뢰인의 권리를 지키는 실무 중심의 대응</div>
+                                        <div class="content">
+                                            <p>
+                                                법 조항에 머무르지 않고,<br/>
+                                                실제 사건이 어떻게 흘러가는지를 먼저 봅니다.<br/>
+                                                <b>두율의 대응은 항상 현실을 기준으로 합니다.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="item">
+                                        <div class="icon" style="background-image: url('./img/sub/sub1_1/section3/icon2.png');"></div>
+                                        <div class="t1">정직한 설명과 투명한 절차</div>
+                                        <div class="t2">정직한 설명과 투명한 절차를 중시합니다</div>
+                                        <div class="content">
+                                            <p>
+                                                가능한 것과 어려운 것을 구분해 설명하고,<br/>
+                                                절차와 진행 상황을 숨기지 않습니다.<br/>
+                                                <b>의뢰인이 이해하는 과정 또한<br/>
+                                                법률 서비스의 일부라고 생각합니다.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="bar"></div>
+                                    <div class="item">
+                                        <div class="icon" style="background-image: url('./img/sub/sub1_1/section3/icon3.png');"></div>
+                                        <div class="t1">공익과 인권에 대한 책임</div>
+                                        <div class="t2">공익과 인권을 바탕으로 한 사회적 책임 실천</div>
+                                        <div class="content">
+                                            <p>
+                                                두율은 사건의 결과뿐 아니라,<br/>
+                                                그 과정이 사회에 어떤 의미를 남기는지도 고민합니다.<br/>
+                                                <b>법률가로서의 책임을 잊지 않습니다.</b>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="section4">
+                            <div class="inner">
+                                <h3>Mission & Belief</h3>
+                                <h4>두율이 믿는 <b>법률가의 역할</b></h4>
+                                <div class="center-text">
+                                    변호사는 기본적 인권을 옹호하고<br/>
+                                    사회정의를 실현함을 사명으로 한다.<br/>
+                                    <span class="center">– 변호사법 제1조</span>
+                                </div>
+                                <div class="center-text2">
+                                    법무법인 두율은<br/>
+                                    변호사법 제1조의 이 신념을 바탕으로<br/>
+                                    정직하고 성실하게 일하는 변호사들이 모여 있습니다.<br/><br/>
+
+                                    <b>
+                                        의뢰인의 편에 서되,<br/>
+                                        법의 원칙에서 벗어나지 않는 것.<br/>
+                                        그 균형을 지키는 것이<br/>
+                                        두율이 생각하는 변호사의 역할입니다.
+                                    </b>
+                                </div>
+                            </div>
+                        </section>
+                    </main>
+                <!-- } 메인 끝-->
+
+
+                <!-- 푸터 시작  { -->
+                    <footer>
+                        <div class="box1">
+                            <div class="inner">
+                                <div class="space-box">
+                                    <img src="./img/common/footer-logo.svg" alt="법무법인 두율" class="logo" />
+                                    <a href="#" class="privacy-btn privacyPopupBtn">개인정보 처리방침</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="inner">
+                                <div class="space-box">
+                                    <div class="info-div">
+                                        <div class="list">
+                                            <div class="label">대표 변호사</div>
+                                            <div class="content">권영국 변호사</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">전&nbsp;&nbsp;&nbsp;&nbsp;화</div>
+                                            <div class="content">02-3472-2711</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">이메일</div>
+                                            <div class="content">0000@naver.com</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">사업자번호</div>
+                                            <div class="content">000-000-000000</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">주&nbsp;&nbsp;&nbsp;&nbsp;소</div>
+                                            <div class="content">(06134) 서울특별시 강남구 테헤란로7길 11, 901호(역삼동, 한덕빌딩)</div>
+                                        </div>
+                                    </div>
+                                    <div class="copy-right">
+                                        ⓒ Law Firm DOYUL. All rights reserved
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                <!-- } 푸터 끝-->
+            </article>
+        </main>
+
+
+        <!--개인정보처리방침-->
+        <section class="privacyPopup" id="privacyPopup">
+            <div class="inner">
+                <div class="contentWrap">
+                    <div class="titleBox">
+                        <span>개인정보 처리방침</span>
+                        <img src="./img/common/close-btn.png" alt="closeBtn" class="closeBtn">
+                    </div>
+                    <div class="contentBox">
+                        해당 홈페이지에 맞는 개인정보처리방침을 입력합니다.           
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
