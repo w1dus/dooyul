@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <!--스타일-->
+        <link rel="stylesheet" href="./style/default.css">
+        <link rel="stylesheet" href="./style/font.css">
+        <link rel="stylesheet" href="./style/style.css">
+        <link rel="stylesheet" href="./style/swiper.min.css">
+        <link rel="stylesheet" href="./style/animation.css">
+        <link rel="stylesheet" href="./style/customBoard.css">
+        <!--스크립트-->
+        <script type="text/javascript" src="./script/script.js"></script>
+        <script type="text/javascript" src="./script/swiper.min.js"></script>
+        <script type="text/javascript" src="./script/customBoard.js"></script>
+        <script type="text/javascript" src="./script/common_jp.js"></script>
+        <!-- 패럴렉스 -->
+        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollSmoother.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/ScrollToPlugin.min.js"></script>
+    </head>
+    <body>
+        <!-- 헤더 { -->
+        <header class=""><!-- 메인에만 main active 클래스 넣어주세요.-->
+            <div class="inner">
+                <a href="./index.html">
+                    <img src="./img/common/logo.svg" alt="법무법인 두율" class="logo white" />
+                    <img src="./img/common/logo-black.svg" alt="법무법인 두율" class="logo black" />
+                </a>
+                <ul class="menu-list">
+                    <li><a href="./sub1_1.html" class="scroll_move">법인소개</a></li>
+                    <li><a href="./sub2_1.html" class="scroll_move">구성원</a></li>
+                    <li><a href="./sub3_1.html" class="scroll_move">업무분야</a></li>
+                    <li><a href="./sub4_1.html" class="scroll_move">두율소식</a></li>
+                    <li><a href="./sub5_1.html" class="scroll_move">두율 인사이트</a></li>
+                </ul>
+                <div class="right-wrap">
+                    <a href="./sub6_1.html" class="apply-btn"><span class="text">상담예약</span><span class="dot"></span></a>
+                    <button type="button" class="menu-btn">
+                        <img src="./img/common/menu.svg" alt="메뉴" class="icon" />
+                    </button>
+                </div>
+            </div>
+        </header>
+        <!-- } 헤더 끝-->
+        <!-- 우측 슬라이드 메뉴 { -->
+            <section class="slide-menu">
+                <div class="btn-div">
+                    <button type="button" class="close-btn">
+                        <img src="./img/common/close-btn.png" alt="x" class="icon" />
+                    </button>
+                </div>
+                <div class="menu-wrap">
+                    <ul class="menu-list">
+                        <li><a href="./sub1_1.html" class="scroll_move">법인소개</a></li>
+                        <li><a href="./sub2_1.html" class="scroll_move">구성원</a></li>
+                        <li><a href="./sub3_1.html" class="scroll_move">업무분야</a></li>
+                        <li><a href="./sub4_1.html" class="scroll_move">두율소식</a></li>
+                        <li><a href="./sub5_1.html" class="scroll_move">두율 인사이트</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="slide-menu-close"></section>
+        <!-- } 우측 슬라이드 메뉴 끝-->
+        <main id="smooth-wrapper">
+            <article id="smooth-content">
+                <!-- 메인 { -->
+                    <main class="sub sub4 sub4_1">
+                        <section class="sub-banner-section">
+                            <div class="white-box left"></div>
+                            <div class="white-box left left2"></div>
+                            <div class="inner">
+                              <h2>
+                                두율의 현재를 전합니다.
+                              </h2>
+                              <p class="content">
+                                법무법인 두율의 공지사항과<br/>
+                                <b>업무 관련 소식을 정리하여 안내드립니다.</b>
+                              </p>
+                            </div>
+                            <div class="white-box right"></div>
+                            <div class="white-box right right2"></div>
+                            <div class="bottom-bar"></div>
+                        </section>
+                        <section class="section1">
+                            <div class="inner">
+
+                                <section class="boardArti boardWriteArti">
+                                        
+                                        <article class="infoBoxWrap">
+                                            <ul class="infoBoxList">
+                                                <li class="full">
+                                                    <div class="infoBox">
+                                                        <div class="label">분류</div>
+                                                        <div class="txtBox">
+                                                            <select class="ipt">
+                                                                <option value="">분류를 선택하세요</option>
+                                                                <option value="">분류를 선택하세요</option>
+                                                                <option value="">분류를 선택하세요</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="half">
+                                                    <div class="infoBox">
+                                                        <div class="label">이름</div>
+                                                        <div class="txtBox"><input type="text" name="" value="" placeholder="이름" class="ipt" /></div>
+                                                    </div>
+                                                </li>
+                                                <li class="half">
+                                                    <div class="infoBox">
+                                                        <div class="label">비밀번호</div>
+                                                        <div class="txtBox"><input type="password" name="" value="" placeholder="이름" class="ipt" /></div>
+                                                    </div>
+                                                </li>
+                                                <li class="half">
+                                                    <div class="infoBox">
+                                                        <div class="label">이메일</div>
+                                                        <div class="txtBox"><input type="email" name="" value="" placeholder="이메일" class="ipt" /></div>
+                                                    </div>
+                                                </li>
+                                                <li class="half">
+                                                    <div class="infoBox">
+                                                        <div class="label">홈페이지</div>
+                                                        <div class="txtBox"><input type="homepage" name="" value="" placeholder="홈페이지" class="ipt" /></div>
+                                                    </div>
+                                                </li>
+                                                <li class="full">
+                                                    <div class="infoBox">
+                                                        <div class="label">설정</div>
+                                                        <div class="txtBox">
+                                                            <select class="ipt">
+                                                                <option value="">분류를 선택하세요</option>
+                                                                <option value="">분류를 선택하세요</option>
+                                                                <option value="">분류를 선택하세요</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="full">
+                                                    <div class="infoBox">
+                                                        <div class="label">제목</div>
+                                                        <div class="txtBox">
+                                                            <input type="text" name="" value="" placeholder="제목" class="ipt" />
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </article>
+                        
+                                        <article class="dhtmlBox">
+                                            dhtml을 넣어주세요.
+                                        </article>
+                        
+                                        <article class="addArti">
+                                            <div class="addWrap">
+                                                <div class="tag"># 링크 1</div>
+                                                <input type="url" class="ipt link" placeholder="링크를 입력해주세요" />
+                                            </div>
+                                            <div class="addWrap">
+                                                <div class="tag"># 링크 2</div>
+                                                <input type="url" class="ipt link" placeholder="링크를 입력해주세요" />
+                                            </div>
+                        
+                                            <div class="addWrap">
+                                                <div class="tag"># 파일 1</div>
+                                                <input type="file" class="ipt file" placeholder="링크를 입력해주세요" />
+                                                <label class="delBox">
+                                                    <input type="checkbox"/>
+                                                    <p>file.jpg(11.4K) 파일삭제</p>
+                                                </label>
+                                            </div>
+                                            <div class="addWrap">
+                                                <div class="tag"># 파일 2</div>
+                                                <input type="file" class="ipt file" placeholder="링크를 입력해주세요" />
+                                                <label class="delBox">
+                                                    <input type="checkbox"/>
+                                                    <p>file.jpg(11.4K) 파일삭제</p>
+                                                </label>
+                                            </div>
+                        
+                                        </article>
+                        
+                                        <article class="btnWrap">
+                                            <a href="./basicList.html" class="cancel boardBtn">취소</a>
+                                            <button type="button" class="submit boardBtn">작성완료</button>
+                                        </article>
+                                        
+                                </section>
+
+                             
+                            </div>
+                        </section>
+                        
+                    </main>
+                <!-- } 메인 끝-->
+
+
+                <!-- 푸터 시작  { -->
+                    <footer>
+                        <div class="box1">
+                            <div class="inner">
+                                <div class="space-box">
+                                    <img src="./img/common/footer-logo.svg" alt="법무법인 두율" class="logo" />
+                                    <a href="#" class="privacy-btn privacyPopupBtn">개인정보 처리방침</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="inner">
+                                <div class="space-box">
+                                    <div class="info-div">
+                                        <div class="list">
+                                            <div class="label">대표 변호사</div>
+                                            <div class="content">권영국 변호사</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">전&nbsp;&nbsp;&nbsp;&nbsp;화</div>
+                                            <div class="content">02-3472-2711</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">이메일</div>
+                                            <div class="content">0000@naver.com</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">사업자번호</div>
+                                            <div class="content">000-000-000000</div>
+                                        </div>
+                                        <div class="list">
+                                            <div class="label">주&nbsp;&nbsp;&nbsp;&nbsp;소</div>
+                                            <div class="content">(06134) 서울특별시 강남구 테헤란로7길 11, 901호(역삼동, 한덕빌딩)</div>
+                                        </div>
+                                    </div>
+                                    <div class="copy-right">
+                                        ⓒ Law Firm DOYUL. All rights reserved
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </footer>
+                <!-- } 푸터 끝-->
+            </article>
+        </main>
+
+
+        <!--개인정보처리방침-->
+        <section class="privacyPopup" id="privacyPopup">
+            <div class="inner">
+                <div class="contentWrap">
+                    <div class="titleBox">
+                        <span>개인정보 처리방침</span>
+                        <img src="./img/common/close-btn.png" alt="closeBtn" class="closeBtn">
+                    </div>
+                    <div class="contentBox">
+                        해당 홈페이지에 맞는 개인정보처리방침을 입력합니다.           
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+</html>
