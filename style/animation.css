@@ -1,10 +1,170 @@
 @charset "utf-8";
 /* animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; */
 
+.main .visual-section .title-box{ opacity: 0; }
+.main .visual-section.on .title-box{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .visual-section .center-div{ opacity: 0; }
+.main .visual-section.on .center-div{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .visual-section .scroll{ animation: bounce 2s ease-in-out 0s infinite; }
+
+.main .why-section h2{ opacity: 0; }
+.main .why-section.on h2{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .why-section h3{ opacity: 0; }
+.main .why-section.on h3{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .why-section .content{ opacity: 0; }
+.main .why-section.on .content{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+.main .why-section .item-list{ opacity: 0; }
+.main .why-section.on .item-list{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+.main .why-section .item-list .item{ opacity: 0; }
+.main .why-section.on .item-list .item{ animation: fadeIn 0.5s ease-in-out 0.4s 1 forwards running; }
+
+.main .main-title-bar{ opacity: 0; }
+.main .on .main-title-bar{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .moment-section .title-wrap{ opacity: 0; }
+.main .moment-section.on .title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .moment-section .item-list{ opacity: 0; }
+.main .moment-section.on .item-list{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .insights-section h2{ opacity: 0; }
+.main .insights-section.on h2{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .insights-section h3{ opacity: 0; }
+.main .insights-section.on h3{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.main .insights-section .tab-list{ opacity: 0; }
+.main .insights-section.on .tab-list{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+.main .insights-section .content{ opacity: 0; }
+.main .insights-section.on .content{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.main .insights-section .item-list{ opacity: 0; }
+.main .insights-section.on .item-list{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
+.main .news-section .left{ opacity: 0; }
+.main .news-section.on .left{ animation: fadeInLeft 0.5s ease-in-out 0s 1 forwards running; }
+.main .news-section .board-div{ opacity: 0; }
+.main .news-section.on .board-div{ animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; }
+
+.main .contactus-section .logo{ opacity: 0; }
+.main .contactus-section.on .logo{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.main .contactus-section .bar{ opacity: 0; }
+.main .contactus-section.on .bar{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.main .contactus-section .title{ opacity: 0; }
+.main .contactus-section.on .title{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.main .contactus-section .content{ opacity: 0; }
+.main .contactus-section.on .content{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+.main .contactus-section .btn-wrap a{ opacity: 0; }
+.main .contactus-section.on .btn-wrap a{ animation: fadeIn 0.5s ease-in-out 0.4s 1 forwards running; }
+
+
+.sub .sub-banner-section .white-box.left{ opacity: 0; animation: fadeInOpacity 0.5s ease-in-out 0s 1 forwards running; }
+.sub .sub-banner-section .white-box.left2{ opacity: 0; animation: fadeInOpacity 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub .sub-banner-section .white-box.right{ opacity: 0; animation: fadeInOpacity 0.5s ease-in-out 0s 1 forwards running; }
+.sub .sub-banner-section .white-box.right2{ opacity: 0; animation: fadeInOpacity 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.sub .sub-banner-section h2{ opacity: 0; animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub .sub-banner-section .content{ opacity: 0; animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.sub1_1 .section1 .sub-title-wrap{ opacity: 0; }
+.sub1_1 .section1.on .sub-title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub1 .section1 .content-box{ opacity: 0; }
+.sub1 .section1.on .content-box{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+
+.sub1_1 .section2 .sub-title2{ opacity: 0; }
+.sub1_1 .section2.on .sub-title2{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }   
+.sub1_1 .item-box{ opacity: 0; }
+.sub1_1 .section2.on .item-box{ animation: fadeInRight 0.5s ease-in-out 0s 1 forwards running; }
+
+.sub1_1 .section3 h3{ opacity: 0; }
+.sub1_1 .section3.on h3{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub1_1 .section3 h4{ opacity: 0; }
+.sub1_1 .section3.on h4{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub1_1 .section3 .item-wrap{ opacity: 0; }
+.sub1_1 .section3.on .item-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub1_1 .section3 .item-wrap .item{ opacity: 0; }
+.sub1_1 .section3.on .item-wrap .item{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub1_1 .section3 .item-wrap .item .icon{ opacity: 0; }
+.sub1_1 .section3.on .item-wrap .item .icon{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+
+
+.sub1_1 .section4 h3{ opacity: 0; }
+.sub1_1 .section4.on h3{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub1_1 .section4 h4{ opacity: 0; }
+.sub1_1 .section4.on h4{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub1_1 .section4 .center-text{ opacity: 0; }
+.sub1_1 .section4.on .center-text{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.sub1_1 .section4 .center-text2{ opacity: 0; }
+.sub1_1 .section4.on .center-text2{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+.sub.sub2_1 .section1 .sub-title-wrap{ opacity: 0; }
+.sub.sub2_1 .section1.on .sub-title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub.sub2_1 .section1 .half-div{ opacity: 0; }
+.sub.sub2_1 .section1.on .half-div{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub.sub2_1 .section1 .half-div .img-box{ opacity: 0; }
+.sub.sub2_1 .section1.on .half-div .img-box{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.sub.sub2_1 .section1 .half-div .content-div{ opacity: 0; }
+.sub.sub2_1 .section1.on .half-div .content-div{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
+.sub.sub2_1 .section2 .sub-title-wrap{ opacity: 0; }
+.sub.sub2_1 .section2.on .sub-title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub.sub2_1 .section2 .item-list > li{ opacity: 0; }
+.sub.sub2_1 .section2.on .item-list > li{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.sub.sub4_1 .section1{ opacity: 0; }
+.sub.sub4_1 .section1.on{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+
+.sub6_1 .section1 .title-center{ opacity: 0; }
+.sub6_1 .section1.on .title-center{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub6_1 .section1 h4{ opacity: 0; }
+.sub6_1 .section1.on h4{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+
+.sub6_1 .section1 .sub-title-wrap{ opacity: 0; }
+.sub6_1 .section1.on .sub-title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub6_1 .section1 .item-wrap{ opacity: 0; }
+.sub6_1 .section1.on .item-wrap{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub6_1 .section1 .item-wrap .item{ opacity: 0; }
+.sub6_1 .section1.on .item-wrap .item{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.sub6_1 .section1 .item-wrap .item .number{ opacity: 0; }
+.sub6_1 .section1.on .item-wrap .item .number{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
+.sub6_1 .section2 .sub-title-wrap h3{ opacity: 0; }
+.sub6_1 .section2.on .sub-title-wrap h3{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub6_1 .section2 .sub-title-wrap h4{ opacity: 0; }
+.sub6_1 .section2.on .sub-title-wrap h4{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub6_1 .section2 .sub-content{ opacity: 0; }
+.sub6_1 .section2.on .sub-content{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.sub6_1 .section2 .formList{ opacity: 0; }
+.sub6_1 .section2.on .formList{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
+.sub6_1 .section3 .sub-title-wrap{ opacity: 0; }  
+.sub6_1 .section3.on .sub-title-wrap{ animation: fadeIn 0.5s ease-in-out 0s 1 forwards running; }
+.sub6_1 .section3 .half-box{ opacity: 0; }
+.sub6_1 .section3.on .half-box{ animation: fadeIn 0.5s ease-in-out 0.1s 1 forwards running; }
+.sub6_1 .section3 .half-box .map{ opacity: 0; }
+.sub6_1 .section3.on .half-box .map{ animation: fadeIn 0.5s ease-in-out 0.2s 1 forwards running; }
+.sub6_1 .section3 .half-box .map iframe{ opacity: 0; }
+.sub6_1 .section3.on .half-box .map iframe{ animation: fadeIn 0.5s ease-in-out 0.3s 1 forwards running; }
+
+
 
 @keyframes fadeIn {
     0% {transform: translate3d(0px, 30px, 0px); }
     100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+
+@keyframes fadeInOpacity {
+    0% {opacity: 0; }
+    100% { opacity: 1; ; }
 }
 @keyframes fadeInDown {
     0% {transform: translate3d(0px, -30px, 0px); }
@@ -17,4 +177,11 @@
 @keyframes fadeInLeft {
     0% { opacity: 0; transform: translate3d(-30px, 0, 0px); }
     100% { opacity: 1; transform: translate3d(0px, 0px, 0px); }
+}
+
+
+@keyframes bounce {
+    0%   { transform: translateY(0); opacity: 0.6; }
+    50%  { transform: translateY(10px); opacity: 1; }
+    100% { transform: translateY(0); opacity: 0.6; }
 }

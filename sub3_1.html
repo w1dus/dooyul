@@ -171,7 +171,7 @@
                                 </ul>
                             </div>
                         </section>
-                        <section class="section3">
+                        <section class="section3" id="category1">
                             <div class="inner">
                                 <div class="sub-title-wrap">
                                     <div class="bar"></div>
@@ -218,7 +218,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="section3">
+                        <section class="section3" id="category2">
                             <div class="inner">
                                 <div class="sub-title-wrap">
                                     <div class="bar"></div>
@@ -258,7 +258,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="section3">
+                        <section class="section3" id="category3">
                             <div class="inner">
                                 <div class="sub-title-wrap">
                                     <div class="bar"></div>
@@ -297,7 +297,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section class="section3">
+                        <section class="section3" id="category4">
                             <div class="inner">
                                 <div class="sub-title-wrap">
                                     <div class="bar"></div>
@@ -343,11 +343,44 @@
                                         <div class="t1">결정을 서두르지 않아도 됩니다.</div>
                                         <div class="t2">충분한 설명과 현실적인 조언으로 사건의 방향을 함께 정리하겠습니다.</div>
                                     </div>
-                                    <a href="" class="apply-btn"><span>상담예약</span><span class="dot"></span></a>
+                                    <a href="./sub6_1.html" class="apply-btn"><span>상담예약</span><span class="dot"></span></a>
                                 </div>
                             </div>
                         </section>
                     </main>
+                    <script>
+                        // URL의 해시값이 변경될 때마다 스크롤 위치 조정
+                        window.addEventListener("hashchange", function() {
+                            var hash = location.hash;
+                            if (hash !== "") {
+                                var target = document.querySelector(hash);
+                                if (target) {
+                                var headerHeight = document.querySelector("header").offsetHeight;
+                                var targetPosition = target.getBoundingClientRect().top;
+                                window.scrollTo({
+                                    top: targetPosition + window.pageYOffset - headerHeight - 100,
+                                    behavior: "smooth"
+                                });
+                                }
+                            }
+                            });
+                        
+                            // 초기 로딩 시 URL의 해시값에 따라 스크롤 위치 조정
+                            window.addEventListener("load", function() {
+                            var hash = location.hash;
+                            if (hash !== "") {
+                                var target = document.querySelector(hash);
+                                if (target) {
+                                var headerHeight = document.querySelector("header").offsetHeight;
+                                var targetPosition = target.getBoundingClientRect().top;
+                                window.scrollTo({
+                                    top: targetPosition + window.pageYOffset - headerHeight - 100,
+                                    behavior: "auto"
+                                });
+                                }
+                            }
+                        });
+                    </script>
                 <!-- } 메인 끝-->
 
 

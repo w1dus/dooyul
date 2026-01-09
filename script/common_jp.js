@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function(e){
     headerScrollHandler();
     bodyScroll();
     privacyUsePopup();
+    hashScrollHandler();
 })
 document.addEventListener("scroll", function(){
     animationOnHandler();
@@ -76,7 +77,7 @@ const animationOnHandler = () => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('on');
                 } else {
-                    entry.target.classList.remove('on');
+                    // entry.target.classList.remove('on');
                 }
             });
         }, {
